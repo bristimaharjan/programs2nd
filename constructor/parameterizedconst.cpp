@@ -10,8 +10,8 @@ class Temp{
   }
   void show()
   {
-    cout<<"the fahrenheit temperature is :"<<endl;
-    cout<<F;
+    cout << "the fahrenheit temperature is :" << endl;
+    cout << F;
   }
 };
 int main()
