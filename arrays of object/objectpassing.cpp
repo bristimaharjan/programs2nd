@@ -10,17 +10,23 @@ class first{
 			cout<<"Enter num: ";
 			cin>>a;
 		}
-		void sum(first x,first y)
+		first sum(first x,first y)
 		{
-			int result;
-			result=x.a+y.a;
-			cout<<"The sum is: "<<result; 
+			first sum;
+			sum.a=x.a+y.a;
+     return sum;
 		}
-}obj1,obj2,obj3;
+		void display()
+		{
+		
+			cout<<"the sum :"<<a;
+		}
+}obj1,obj2,obj3,result;
 int main()
 {
 	obj1.getvalue();
 	obj2.getvalue();
-	obj3.sum(obj1,obj2);
+	result=obj3.sum(obj1,obj2);
+	result.display();
 	return 0;
 }
