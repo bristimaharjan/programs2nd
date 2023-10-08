@@ -12,7 +12,7 @@ class SimpleInterest{
 		}	
 		float calculate()
 		{
-			si=(p*t*r)/100;
+			si=(p*t*r)/100;                                                                                               
 			return si;
 		}
 		void display()
